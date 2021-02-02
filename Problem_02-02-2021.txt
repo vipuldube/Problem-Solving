@@ -1,0 +1,29 @@
+1. Make a python program to print following pyramid
+
+
+
+       *
+     ***
+   *****
+  *******
+*********
+
+
+
+*********
+  *******
+    *****
+      ***
+        *
+
+
+2. Write a program to solve following specifications.
+Create a function which takes number and returns its lenth.
+
+Example:#
+
+1. FuncNumLen(123) : return 3
+
+2. FuncNumLen(7000) : return 4
+
+1. FuncNumLen(0) : return 1

@@ -1,16 +1,9 @@
-# pyramid in python
-j = 9
-for i in range (1,10,2):
-    print(' '*j+i*'*')
-    j = j-1
-
-
-
-
-
-
-# Reverse pyramid in python
-i = 1
-for j in range (11,0,-2):
-        print(i*' '+j*'*')
-        i = i+1
+def len_word(words_list):
+    word_len = []
+    for n in words_list:
+        word_len.append((len(n), n))
+    word_len.sort()
+    return word_len[-1][0], word_len[-1][1]
+result = len_word(["abc", "Exercises", "Backend"])
+print("\nLen: ",result[1])
+print("Len: ",result[0])
